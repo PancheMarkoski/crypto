@@ -1,0 +1,17 @@
+@import "./vairables";
+@import "./mixins";
+@import "./base";
+
+@import "./pages/home";
+
+@import "./sections/leftSection.scss";
+@import "./sections/rightSection.scss";
+
+@import "./components/heading";
+@import "./components/paragraph";
+@import "./components/cryptoInfo";
+@import "./components/cryptoSelect";
+@import "./components/itemSelect";
+@import "./components/btn";
+@import "./components/copyPaymentAddress";
+@import "./components/boxMessage";

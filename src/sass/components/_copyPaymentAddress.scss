@@ -1,0 +1,22 @@
+.copyPaymentAddress {
+    width: 429px;
+    height: 40px;
+    border: 1px solid #D7D8DA;
+    background: #FFFFFF;
+    margin: 15px 0 0 52px;
+    display: flex;
+    justify-content: space-between;
+    input {
+        font-family: $fontRoboto;
+        font-size: 14px;
+        line-height: 22px;
+        color: #787A81;
+        border: none;
+        padding: 0 0 0 15px;
+        width: 100%;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

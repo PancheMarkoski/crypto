@@ -1,0 +1,39 @@
+.cryptoInfo {
+    font-family: $fontRoboto;
+    width: 430px;
+    height: 52px;
+    background-color: white;
+    margin: 0 0 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $fontRoboto;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 14px;
+    color: #3F4048;
+    padding: 0 12px 0 24px;
+    div {
+        display: flex;
+        align-items: center;
+        p {
+            padding: 0 0 0 17px;
+            color: #3F4048
+            ;
+        }
+        span {
+            .cryptoInfo__icon {
+                color: #4077c1;
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+    span {
+        width: 500;
+        font-size: 14px;
+        color: #4077C1;
+        cursor: pointer;
+    }
+}
+

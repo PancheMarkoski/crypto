@@ -1,0 +1,27 @@
+.itemSelect {
+    width: 428px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid #EDEFF0;
+    padding: 0 0 0 25px;
+    margin: 0px 0 0 50px;
+    cursor: pointer;
+    img {
+        width: 25px;
+        height: 25px;
+    }
+    p {
+        color: #53545A;
+        font-size: 18px;
+        font-family: $RobotoCondensed;
+        width: 700;
+        line-height: 27px;
+        padding: 0 0 0 15px;
+    }
+
+    .itemSelect__total {
+        color: #53545abd;
+    }
+}
